@@ -12,6 +12,17 @@
     object-fit: cover;
 }
 
+.profile-photo {
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.profile-photo img {
+    height: 100%;
+    font-weight: 100%;
+    border-radius: 100%;
+}
+
 .mask::after {
     content: "";
     width: 100%;
@@ -58,6 +69,10 @@
 
     .hero .contant p {
         font-size: 1.4rem;
+    }
+
+    .profile-photo {
+        height: 190px;
     }
 }
 
