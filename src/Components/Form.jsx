@@ -5,7 +5,7 @@ import "./FormStyles.css"
 export const Form = () => {
   return (
     <div className='form'>
-        <form action="">
+        <form action="" className='contact'>
             <lebel>Your Name</lebel>
             <input type="text"></input>
             <lebel>Email</lebel>
