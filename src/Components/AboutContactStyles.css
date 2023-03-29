@@ -1,0 +1,70 @@
+.about-container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: auto;
+}
+
+.profile-container {
+    width: 100%;
+}
+
+.about-container .about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill .tech-stacks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tech-stacks img {
+    width: 75px;
+}
+
+.info .image {
+    height: 190px;
+    width: 277px;
+}
+
+.info .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1vw;
+}
+
+.info {
+    display: flex;
+    align-items: self-start;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.info-data {
+    margin-left: 10px;
+    width: fit-content;
+    max-width: calc(100%-10px);
+}
+
+.info h2 {
+    color: #fff;
+}
+
+.info h3 {
+    color: #fff;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: self-start;
+}
+
