@@ -1,6 +1,6 @@
 import React from 'react'
 
-import "AboutContactStyles.css"
+import "./AboutContactStyles.css"
 
 export const AboutContact = () => {
   return (
