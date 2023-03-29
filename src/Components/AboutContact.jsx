@@ -20,7 +20,7 @@ export const AboutContact = () => {
           </div>
           <div className="description">
             <p>
-              This is a text
+              I'am a full stack web Devloper and eagered to learn more.
             </p>
           </div>
         </div>
@@ -82,11 +82,22 @@ export const AboutContact = () => {
             <hr />
           </div>
           <div className="Achievements">
-
+            <ul>
+              <li>
+                <p>Maximum ratting of 1748 in CodeChef</p>
+              </li>
+              <li>
+                <p>Secured Rank 219 at "June Lunchtime 2022 Division 3" contest of codechef</p>
+              </li>
+              
+              <li>
+                <p>Secured Rank 157 at "February Long 2022 - II, Division 3" contest of codechef</p>
+              </li>
+            </ul>
 
           </div>
         </div>
-        <div className="about-section cirtificate-container">
+        {/* <div className="about-section cirtificate-container">
           <div className="about-heading">
             <h1>Cirtificates</h1>
             <hr />
@@ -94,7 +105,7 @@ export const AboutContact = () => {
           <div className="cirtificates">
 
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

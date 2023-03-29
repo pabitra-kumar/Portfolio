@@ -1,7 +1,7 @@
 import React from 'react'
 import "./HeroImgStyles.css"
 import IntroImg from "../assets/intro-bg.jpg"
-// import profile from "../assets/profile.png"
+import profile from "../assets/profile.png"
 import cv from "../assets/Pabitra_Kumar_Bebartta_Resume.pdf"
 import { Link } from 'react-router-dom'
 export const HeroImg = () => {
@@ -11,9 +11,9 @@ export const HeroImg = () => {
         <img src={IntroImg} alt="IntroImg" className="intro-img" />
       </div>
       <div className="content">
-        {/* <div className="profile-photo">
+        <div className="profile-photo">
           <img src={profile} alt="profile-cleanBG" />
-        </div> */}
+        </div>
         <p>Hi, I'M PABITRA KUMAR BEBARTTA</p>
         <h1> Web Devloper.</h1>
         <div>

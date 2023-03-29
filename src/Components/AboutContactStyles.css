@@ -68,3 +68,13 @@
     align-items: self-start;
 }
 
+.Achievements ul {
+    list-style-type: disc;
+    color: #fff;
+}
+
+.Achievements ul li {
+    margin-bottom: 10px;
+}
+
+
