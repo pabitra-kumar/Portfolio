@@ -20,7 +20,7 @@ export const AboutContact = () => {
           </div>
           <div className="description">
             <p>
-              I'am a full stack web Devloper and eagered to learn more.
+              I'am a full stack web Devloper and eager to learn more.
             </p>
           </div>
         </div>
