@@ -24,7 +24,7 @@ export const Navbar = () => {
 
   return (
     <div className={" flex justify-between items-center p-[1rem] fixed w-full h-[90px] z-10" + (color ? " bg-[rgba(0,0,0,0.85)] transition duration-[0.5s]" : '')}>
-        <h1>
+        <h1 className='text-[2rem] md:text-[2.4rem] font-semibold'>
             <Link to="/">
                 Portfolio.
             </Link>
