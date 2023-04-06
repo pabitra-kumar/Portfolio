@@ -1,4 +1,3 @@
-import "./WorkCardStyles.css"
 import { WorkCard } from "./WorkCard"
 import ProjectCardData from "./WorkCardData"
 
@@ -7,8 +6,8 @@ import React from 'react'
 export const Work = () => {
     return (
         <div className="work-container">
-            <h1 className="project-heading">Projects</h1>
-            <div className="project-container">
+            <h1 className="text-center px-0 pt-[4rem] pb-[2rem]">Projects</h1>
+            <div className=" max-w-[90%] m-auto grid-cols-1 md:max-w-[1140px] grid md:grid-cols-3 gap-[40px] pb-[5rem]">
                 {ProjectCardData.map( (val,ind) => {
                     return (
                         <WorkCard
