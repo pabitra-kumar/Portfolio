@@ -1,7 +1,5 @@
 import React from 'react'
 
-import "./FooterStyles.css"
-
 import { FaHome, FaPhone, FaMailBulk, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa"
 import { Link } from 'react-router-dom'
 
