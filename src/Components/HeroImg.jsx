@@ -15,10 +15,10 @@ export const HeroImg = () => {
           <img src={profile} alt="profile-cleanBG" className='h-full rounded-[100%] font-extrabold' />
         </div>
         <p className='text-[1.4rem] font-normal uppercase'>Hi, I'M PABITRA KUMAR BEBARTTA</p>
-        <h1 className='md:text-[4rem] pt-[0.6rem] pb-[1.5rem] px-0 text-[3rem]'> Web Devloper.</h1>
+        <h1 className='md:text-[4rem] pt-[0.6rem] pb-[1.5rem] px-0 text-[3rem] font-semibold'> Web Devloper.</h1>
         <div>
           <form method="get" action={cv}>
-            <button type="submit" className='btn my-[1rem] mx-[0.2rem]'>Download CV</button>
+            <button type="submit" className='btn my-[1rem] mx-[0.2rem]' target="_blank" >Download CV</button>
             <Link to="/Contact" className='btn btn-light my-[1rem] mx-[0.2rem]'>Contact</Link>
           </form>
           

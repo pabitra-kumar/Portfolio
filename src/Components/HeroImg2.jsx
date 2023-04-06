@@ -11,7 +11,7 @@ export class HeroImg2 extends Component {
             <>
             <div className='w-full bg-[rgba(0,0,0, 0.5)] h-[60vh] relative'>
                 <div className="w-full h-full flex flex-col justify-center items-center">
-                    <h1 className='md:text-[2.4rem] text[2rem]'>{this.props.heading}</h1>
+                    <h1 className='md:text-[2.4rem] text-[2rem] font-bold'>{this.props.heading}</h1>
                     <p className='text-[1.4rem] text-center'>{this.props.text}</p>
                 </div>
                 <div className='bg-cover h-full w-full absolute top-0 left-0 -z-[1]' style={bgStyle}>

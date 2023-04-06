@@ -1,7 +1,5 @@
 import React from 'react'
 
-import "./AboutContactStyles.css"
-
 import mysql from "../assets/mysql.svg"
 import java from "../assets/java.png"
 import nitr from "../assets/nitr.jpg"
@@ -12,11 +10,11 @@ import { SiTailwindcss, SiPhp } from "react-icons/si"
 
 export const AboutContact = () => {
   return (
-    <div className="profile-container">
-      <div className='about-container'>
-        <div className="about-section who-am-i">
+    <div className="w-full">
+      <div className=' w-fit flex flex-col gap-[50px] m-auto'>
+        <div className="flex flex-col justify-center items-center gap-[10px] who-am-i">
           <div className="about-heading">
-            <h1>Who am I ?</h1>
+            <h1 className='md:text-[2.4rem] text-[2rem] font-bold'>Who am I ?</h1>
           </div>
           <div className="description">
             <p>
@@ -24,82 +22,83 @@ export const AboutContact = () => {
             </p>
           </div>
         </div>
-        <div className="about-section skill">
+        <div className="flex flex-col justify-center items-center gap-[10px] about-section skill">
           <div className="about-heading">
-            <h1>Skills</h1>
+            <h1 className='md:text-[2.4rem] text-[2rem] font-bold'>Skills</h1>
             <hr />
           </div>
-          <div className=" tech-stacks">
+          <div className=" tech-stacks flex flex-wrap">
             <FaHtml5 size={75} style={{ color: "#e34c26" }} />
             <FaCss3 size={75} style={{ color: "#264de4" }} />
             <FaJs size={75} style={{ color: "#f0db4f" }} />
             <FaReact size={75} style={{ color: "#7cc5d9" }} />
             <SiPhp size={75} style={{ color: "#8993be" }} />
-            <img src={mysql} alt="mysql-logo" />
-            <img src={java} alt="java-logo" />
+            <img className='w-[75px]' src={mysql} alt="mysql-logo" />
+            <img className='w-[75px]' src={java} alt="java-logo" />
             <SiTailwindcss size={75} style={{ color: "#3490dc" }} />
             <FaBootstrap size={75} style={{ color: "#563d7c" }} />
           </div>
         </div>
-        <div className="about-section education">
+        <div className="flex flex-col justify-center items-center gap-[10px] about-section education">
           <div className="about-heading">
-            <h1>Education</h1>
+            <h1 className='md:text-[2.4rem] text-[2rem] font-bold'>Education</h1>
             <hr />
           </div>
-          <div className="information">
-            <div className="info">
-              <div className="image">
-                <img src={nitr} alt="nitr" />
+          <div className="information flex flex-col w-fit items-start">
+            <div className="info flex flex-wrap items-center justify-center mb-[10px]">
+              <div className="image h-[190px] w-[277px]">
+                <img className='w-full h-full rounded-[1vw]' src={nitr} alt="nitr" />
               </div>
-              <div className="info-data">
-                <h2>National Institute Of Technology Rourkela</h2>
-                <h3>B.Tech | Chemical Engineering</h3>
-              </div>
-            </div>
-            <div className="info">
-              <div className="image">
-                <img src={ssvm} alt="nitr" />
-              </div>
-              <div className="info-data">
-                <h2>Saraswati Sishu Vidya Mandir , Neelakantha Nagar , Berhampur</h2>
-                <h3>12th | Percentage: 93%</h3>
+              <div className="info-data ml-[10px] w-fit max-w-[calc(100%-10px)]">
+                <h2 className='text-[#fff]'>National Institute Of Technology Rourkela</h2>
+                <h3 className='text-[#fff]'>B.Tech | Chemical Engineering</h3>
               </div>
             </div>
-            <div className="info">
-              <div className="image">
-                <img src={ssvm} alt="nitr" />
+            <div className="info flex flex-wrap items-center justify-center mb-[10px]">
+              <div className="image h-[190px] w-[277px]">
+                <img className='w-full h-full rounded-[1vw]' src={ssvm} alt="nitr" />
               </div>
-              <div className="info-data">
-                <h2>Saraswati Sishu Vidya Mandir , Neelakantha Nagar , Berhampur</h2>
-                <h3>10th | Percentage: 91.16%</h3>
+              <div className="info-data ml-[10px] w-fit max-w-[calc(100%-10px)]">
+                <h2 className='text-[#fff]'>Saraswati Sishu Vidya Mandir , Neelakantha Nagar , Berhampur</h2>
+                <h3 className='text-[#fff]'>12th | Percentage: 93%</h3>
               </div>
-            </div></div>
+            </div>
+            <div className="info flex flex-wrap items-center justify-center mb-[10px]">
+              <div className="image h-[190px] w-[277px]">
+                <img className='w-full h-full rounded-[1vw]' src={ssvm} alt="nitr" />
+              </div>
+              <div className="info-data ml-[10px] w-fit max-w-[calc(100%-10px)]">
+                <h2 className='text-[#fff]'>Saraswati Sishu Vidya Mandir , Neelakantha Nagar , Berhampur</h2>
+                <h3 className='text-[#fff]'>10th | Percentage: 91.16%</h3>
+              </div>
+            </div>
+          </div>
 
         </div>
-        <div className="about-section Achievements-container">
+        <div className="flex flex-col justify-center items-center gap-[10px] about-section Achievements-container">
           <div className="about-heading">
-            <h1>Achievements</h1>
+            <h1 className='md:text-[2.4rem] text-[2rem] font-bold'>Achievements</h1>
             <hr />
           </div>
           <div className="Achievements">
-            <ul>
-              <li>
+            <ul className='text-[#fff] list-disc'>
+              <li className='mb-[10px]'>
                 <p>Maximum ratting of 1748 in CodeChef</p>
               </li>
-              <li>
+              <li className='mb-[10px]'>
                 <p>Secured Rank 219 at "June Lunchtime 2022 Division 3" contest of codechef</p>
               </li>
-              
-              <li>
+
+              <li className='mb-[10px]'>
                 <p>Secured Rank 157 at "February Long 2022 - II, Division 3" contest of codechef</p>
               </li>
             </ul>
 
           </div>
         </div>
-        {/* <div className="about-section cirtificate-container">
+        {/* <div className="flex flex-col justify-center items-center gap-[10px] about-section cirtificate-container">
           <div className="about-heading">
-            <h1>Cirtificates</h1>
+            <h1 className='md:text-[2.4rem] text-[2rem] font-bold'>Cirtificates</h1>
             <hr />
           </div>
           <div className="cirtificates">
