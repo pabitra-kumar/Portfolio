@@ -34,9 +34,9 @@ export const Footer = () => {
             "Endure with grace, tears have no place - keep trying with a smile on your face."
           </p>
           <div className="social mt-[1rem] flex">
-            <Link to="https://www.linkedin.com/in/pabitra-kumar/"> <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} /> </Link>
-            <Link to="https://github.com/pabitra-kumar"> <FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} /> </Link>
-            <Link to="https://www.instagram.com/pabitra_kumar00/"> <FaInstagram size={30} style={{ color: "#fff", marginRight: "1rem" }} /> </Link>
+            <Link to="https://www.linkedin.com/in/pabitra-kumar/" target="_blank"> <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} /> </Link>
+            <Link to="https://github.com/pabitra-kumar" target="_blank"> <FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} /> </Link>
+            <Link to="https://www.instagram.com/pabitra_kumar00/" target="_blank"> <FaInstagram size={30} style={{ color: "#fff", marginRight: "1rem" }} /> </Link>
           </div>
         </div>
       </div>
