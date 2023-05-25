@@ -2,11 +2,12 @@ import React from 'react'
 
 import mysql from "../assets/mysql.svg"
 import java from "../assets/java.png"
+import mongoDB from "../assets/MongoDB.avif"
 import nitr from "../assets/nitr.jpg"
 import ssvm from "../assets/ssvm.jpg"
-import { FaReact, FaHtml5, FaCss3, FaJs, FaBootstrap } from "react-icons/fa"
+import { FaReact, FaHtml5, FaCss3, FaJs, FaBootstrap, FaNodeJs } from "react-icons/fa"
 
-import { SiTailwindcss, SiPhp } from "react-icons/si"
+import { SiTailwindcss, SiPhp, SiExpress} from "react-icons/si"
 
 export const AboutContact = () => {
   return (
@@ -32,6 +33,9 @@ export const AboutContact = () => {
             <FaCss3 size={75} style={{ color: "#264de4" }} />
             <FaJs size={75} style={{ color: "#f0db4f" }} />
             <FaReact size={75} style={{ color: "#7cc5d9" }} />
+            <FaNodeJs size={75} style={{ color: "#3c873a" }} />
+            <SiExpress size={75} style={{ color: "#fff" }} />
+            <img className='w-[75px]' src={mongoDB} alt="MongoDB-logo" />
             <SiPhp size={75} style={{ color: "#8993be" }} />
             <img className='w-[75px]' src={mysql} alt="mysql-logo" />
             <img className='w-[75px]' src={java} alt="java-logo" />
