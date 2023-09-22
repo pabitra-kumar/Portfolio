@@ -7,10 +7,10 @@ import { Navbar } from '../Components/Navbar'
 export const About = () => {
   return (
     <div>
-      <Navbar/>
-      <HeroImg2 heading="ABOUT." text="I'm a Full-Stack Web Devloper" />
+      <Navbar />
+      <HeroImg2 heading="ABOUT." text="I'm a Tech. Enthusiast who not only uses technology but also loves to explore it." />
       <AboutContact />
-      <Footer/>
+      <Footer />
     </div>
   )
 }

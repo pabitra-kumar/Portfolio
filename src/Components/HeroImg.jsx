@@ -1,7 +1,7 @@
 import React from 'react'
 import IntroImg from "../assets/intro-bg.jpg"
 import profile from "../assets/profile.png"
-import cv from "../assets/Pabitra_Kumar_Bebartta_Resume.pdf"
+import cv from "../assets/resume.pdf"
 import { Link } from 'react-router-dom'
 export const HeroImg = () => {
   return (
@@ -15,13 +15,13 @@ export const HeroImg = () => {
           <img src={profile} alt="profile-cleanBG" className='h-full rounded-[100%] font-extrabold' />
         </div>
         <p className='text-[1.4rem] font-normal uppercase'>Hi, I'M PABITRA KUMAR BEBARTTA</p>
-        <h1 className='md:text-[4rem] pt-[0.6rem] pb-[1.5rem] px-0 text-[3rem] font-semibold'> Web Devloper.</h1>
+        <h1 className='md:text-[4rem] pt-[0.6rem] pb-[1.5rem] px-0 text-[3rem] font-semibold'> A Tech Enthusiast.</h1>
         <div>
           <form method="get" action={cv}>
             <button type="submit" className='btn my-[1rem] mx-[0.2rem]' target="_blank" >Download CV</button>
             <Link to="/Contact" className='btn btn-light my-[1rem] mx-[0.2rem]'>Contact</Link>
           </form>
-          
+
         </div>
       </div>
     </div>
