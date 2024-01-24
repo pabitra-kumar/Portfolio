@@ -1,27 +1,12 @@
-import React, { Component, useEffect } from 'react'
+import React, { Component } from 'react'
 import IntroImg from "../assets/intro-bg.jpg"
 import profile from "../assets/profile.png"
 import cv from "../assets/resume.pdf"
 import { Link } from 'react-router-dom'
 import roles from '../data/roles.json'
-import { useState } from 'react'
 
 
 export const HeroImg = () => {
-  // const [i, setI] = useState(0);
-
-  // setInterval(() => {
-  //   setI(i === roles.length - 1 ? 0 : (i + 1))
-  // }, 3000); // 3 seconds delay between each message change
-
-
-
-  // useEffect(() => {
-  //   setI(0)
-  // }, [i])
-
-
-
   return (
     <div className='h-full w-full'>
       <div className="w-full h-[100vh] relative">
