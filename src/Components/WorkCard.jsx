@@ -1,21 +1,29 @@
 import React from 'react'
 
-import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 export const WorkCard = (props) => {
     return (
-        <div className="bg-[#1a1919] py-[1.2rem] px-[1rem]">
-            <div className="h-[100%] flex flex-col">
-                <img src={props.imgsrc} alt="project-preview" className="w-full" />
-                <h2 className="text-[#fff] text-[1.4rem] font-semibold px-0 py-[1rem]">{props.title}</h2>
+        <div className="bg-transparent p-[1.2rem] h-full rounded-lg border-2 border-[#fcfb00] shadow-xl shadow-[#ffffff27] w-full">
+            <div className="h-full flex flex-col justify-between w-full">
+                <Link className="text-[#ffffff84] text-[1.4rem] font-semibold px-0 py-[1rem]" target='
+                _blank' to={props.view === '' ? props.source : props.view} >{props.title}</Link>
                 <div className="pro-details">
-                    <p className="pb-[1rem] text-[1.1rem] text-justify">{props.text}</p>
+                    <p className="pb-[1rem] text-[1.1rem] text-sm">{props.text}</p>
                 </div>
-                <div className="flex justify-between py-[0.5rem] px-0">
-                    <NavLink to={props.view} target="_blank" className="btn py-[0.5rem] px-[1rem]"> View </NavLink>
-                    <NavLink to={props.source} target="_blank" className="btn py-[0.5rem] px-[1rem]"> Source </NavLink>
+                <div className="flex justify-between py-[0.5rem] px-0 w-full">
+                    <Button to={props.view} content="view" />
+                    <Button to={props.source} content="source" />
                 </div>
             </div>
         </div>
+    )
+}
+
+const Button = ({ to, content }) => {
+    return (
+        <Link to={to} target={to === '' ? '' : "_blank"} className={`bg-[#fcfb00] px-4 py-2 rounded-xl text-black font-bold hover:-translate-y-1 transition-all hover:bg-[#fff9] `}>
+            {content}
+        </Link>
     )
 }

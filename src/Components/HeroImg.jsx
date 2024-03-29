@@ -13,7 +13,7 @@ export const HeroImg = () => {
         <img src={IntroImg} alt="IntroImg" className="w-full h-full bg-cover bg-center object-cover" />
       </div>
       <div className='w-full h-full absolute top-0 left-0 bg-[#000] opacity-[0.8]'></div>
-      <div className="absolute -translate-x-1/2 -translate-y-1/2 top-[50%] left-[50%] text-center">
+      <div className="absolute w-full -translate-x-1/2 -translate-y-1/2 top-[50%] left-[50%] text-center">
         <div className=" h-[190px] md:h-[250px] mb-[10px] flex justify-center">
           <img src={profile} alt="profile-cleanBG" className='h-full rounded-[100%] font-extrabold' />
         </div>
@@ -99,7 +99,7 @@ class Role extends Component {
   }
   render() {
     return (
-      <h1 className='md:text-[4rem] pt-[0.6rem] pb-[1.5rem] px-0 text-[3rem] font-semibold transition duration-3000'> A {this.state.part}</h1>
+      <h1 className='md:text-[3rem] pt-[0.6rem] pb-[1.5rem] px-0 text-[1.5rem] font-semibold'> A {this.state.part}</h1>
     );
   }
 }

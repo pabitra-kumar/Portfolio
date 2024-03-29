@@ -3,18 +3,25 @@ import pro2 from "../assets/cosmo.png"
 // import pro6 from "../assets/to-do-list.png"
 const ProjectCardData = [
     {
+        imgsrc: "",
+        title: "ThreadSync: Powered by Next.js ⭐",
+        text: "A social-media chat application, combining the best elements of Threads and Twitter",
+        view: "https://thread-sync.vercel.app/",
+        source: "https://github.com/pabitra-kumar/thread-sync",
+    },
+    {
         imgsrc: pro1,
-        title: "Ecommerce Website",
-        text: "The Full stack project is devloped to give a smooth experence to user in buying and for Admin to sell their products. (*the website is not deployed yet!)",
-        view: "https://ginyard.000webhostapp.com/",
+        title: "Ecommerce with PHP 🚀",
+        text: "The Full stack project is devloped to give a smooth experence to user in buying and for Admin to sell their products.",
+        view: "https://github.com/pabitra-kumar/Shopping-Site",
         source: "https://github.com/pabitra-kumar/Shopping-Site",
     },
     {
         imgsrc: pro2,
-        title: "Cosmopolitan Website",
+        title: "Cosmopolitan Festival 😍",
         text: "Website For the Fest \"COSMOPOLITAN\" ",
         view: "https://www.multiethnicfest.com/",
-        source: "",
+        source: "https://www.multiethnicfest.com/",
     },
     // {
     //     imgsrc: pro6,
