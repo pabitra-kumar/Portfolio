@@ -7,10 +7,10 @@ import { Work } from '../Components/Work'
 export const Project = () => {
   return (
     <div>
-      <Navbar/>
-      <HeroImg2 heading="PROJECTS." text="Some of my most recent works"/>
+      <Navbar />
+      <HeroImg2 heading="PROJECTS." text="Some of my most recent works" />
       <Work />
-      <Footer/>
+      <Footer />
     </div>
   )
 }
