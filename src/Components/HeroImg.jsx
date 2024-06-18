@@ -4,6 +4,8 @@ import profile from "../assets/profile.png"
 import cv from "../assets/resume.pdf"
 import { Link } from 'react-router-dom'
 import roles from '../data/roles.json'
+import { SiLeetcode, SiLinktree } from "react-icons/si";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 
 export const HeroImg = () => {
@@ -25,6 +27,20 @@ export const HeroImg = () => {
             <Link to="/Contact" className='btn btn-light my-[1rem] mx-[0.2rem]'>Contact</Link>
           </form>
 
+        </div>
+        <div className='flex justify-center gap-4 my-4 text-4xl max-md:text-3xl'>
+          <Link to="https://leetcode.com/pabitra_kumar/" target='_blank' aria-label='Leetcode' title='Leetcode'>
+            <SiLeetcode className='text-[#FFA116]' />
+          </Link>
+          <Link to="https://linkedin.com/in/pabitra-kumar" target='_blank' aria-label='Linkedin' title='Linkedin'>
+            <FaLinkedin className='text-[#0077B5]' />
+          </Link>
+          <Link to="https://github.com/pabitra-kumar" target="_blank" aria-label="GitHub" title="GitHub">
+            <FaGithub className="text-[#fff]" />
+          </Link>
+          <Link to="https://linktr.ee/pabitra_kumar" target='_blank' aria-label='Linktree' title='Linktree'>
+            <SiLinktree className='text-[#39E09B]' />
+          </Link>
         </div>
       </div>
     </div>
