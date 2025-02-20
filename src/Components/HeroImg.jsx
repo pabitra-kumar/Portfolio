@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import IntroImg from "../assets/intro-bg.jpg"
-import profile from "../assets/profile.png"
+import profile from "../assets/profile.jpg"
 import cv from "../assets/resume.pdf"
 import { Link } from 'react-router-dom'
 import roles from '../data/roles.json'
